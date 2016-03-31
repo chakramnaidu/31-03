@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
+  "engines": {
+    "node": "4.2.2"
+  },
   "scripts": {
     "postinstall": "typings install",
     "start": "gulp",
