@@ -1,0 +1,55 @@
+﻿<div class="personal-info__avatar-container row">
+    <img class="personal-info__avatar img-responsive col-xs-4 col-sm-4" [src]="personalInfo.imagePath" />
+    <div class="image-uploader">
+        <form class="image-uploader__form"
+              enctype="multipart/form-data" method="post">
+            <span class="btn-browse-file" data-target="#upload-image-modal"
+                  data-toggle="modal">{{"Personal_Infor.Upload_Your_Photo" | translate}}</span>           
+            <input type="file" name="imageFile" class="image-uploader__file"
+                   accept="image/*" />
+        </form>
+    </div>
+</div>
+<div class="ca-control row">
+    <label class="col-xs-12 ca-control__label">
+        {{"Personal_Infor.Full_Name" | translate}}
+        <i class="require-field-signal">(*)</i>
+    </label>
+    <div class="col-xs-12">
+        <input type="text" name="fullName" [(ngModel)]="personalInfo.fullName"
+               class="ca-control__input" required />
+    </div>
+</div>
+<div class="ca-control row">
+    <label class="ca-control__label col-xs-12">
+        {{"Personal_Infor.Email" | translate}}
+        <i class="require-field-signal">(*)</i>
+    </label>
+    <div class="col-xs-12">
+        <input type="email" name="email" [(ngModel)]="personalInfo.email"
+               class="ca-control__input" required />
+    </div>
+</div>
+<div class="ca-control row">
+    <label class="col-xs-12 ca-control__label">
+        {{"Personal_Infor.Mobile_Phone" | translate}}
+        <i class="require-field-signal">(*)</i>
+    </label>
+    <div class="col-xs-12">
+        <input type="text" name="mobile" [(ngModel)]="personalInfo.mobilePhone"
+               class="ca-control__input" />
+    </div>
+
+</div>
+<div class="ca-control row">
+    <label class="col-xs-12 ca-control__label">{{"Personal_Infor.Address" | translate}} </label>
+    <div class="col-xs-12">
+        <input name="address" [(ngModel)]="personalInfo.address"
+               class="ca-control__input"/>
+    </div>
+</div>
+
+<div class="ca-control row">
+    <label class="col-xs-12 ca-control__label">{{"CV.Your_CV" | translate}} </label>
+    <my-upload-file  class="col-xs-12"></my-upload-file>
+</div>

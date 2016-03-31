@@ -1,0 +1,18 @@
+<nav id="ca-navigation" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" (click)="isCollapsed=true">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a><span class="ca-navigation__name-page">{{activePageName}}</span>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse" [collapse]="isCollapsed">
+      <ul class="nav navbar-nav">
+        <li *ngFor="#route of routes"><a [routerLink]="[route.name]" (click)="pageActived(route)">{{route.name}}</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

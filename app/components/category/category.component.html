@@ -1,0 +1,6 @@
+<div id="category-bar">
+    <ul class="nav navbar-nav">
+        <li *ngFor="#route of routes"><a [routerLink]="[route.name]">{{route.name}}</a></li>
+    </ul>
+    <ca-category-dropdown [routes]="routes"></ca-category-dropdown>
+</div>

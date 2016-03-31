@@ -1,0 +1,16 @@
+.upload-file {
+  padding: 0 15px;
+}
+.upload-file__input {
+  font-family: ProximaNova-Regular;
+  font-size: 32px;
+  color: #999999;
+  height: 70px;
+  padding: 20px 0 20px 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+}
+.upload-file .input-group-addon {
+  padding: 0 !important;
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('assets/fonts/ProximaNova-Light/ProximaNova_Light.eot') format('enbedded-opentype'), url('assets/fonts/ProximaNova-Light/ProximaNova_Light.ttf') format('truetype'), url('assets/fonts/ProximaNova-Light/ProximaNova_Light.woff') format('woff'), url('assets/fonts/ProximaNova-Light/ProximaNova_Light.svg#proximanova-light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('assets/fonts/ProximaNova-Regular/ProximaNova_Regular.eot') format('enbedded-opentype'), url('assets/fonts/ProximaNova-Regular/ProximaNova_Regular.ttf') format('truetype'), url('assets/fonts/ProximaNova-Regular/ProximaNova_Regular.woff') format('woff'), url('assets/fonts/ProximaNova-Regular/ProximaNova_Regular.svg#proximanova-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#ca-navigation {
+  background-color: #027383;
+  height: 120px;
+}
+#ca-navigation .navbar-brand {
+  background-image: url("/assets/images/company-logo/logo_dnb.png");
+  width: 175px;
+  height: 120px;
+  margin-left: 10px;
+}
+@media (min-width: 240px) and (max-width: 768px) {
+  #ca-navigation {
+    background-color: #027383;
+    height: 120px;
+  }
+  #ca-navigation .navbar-toggle {
+    margin-top: 35px;
+    margin-right: 10px;
+  }
+  #ca-navigation .navbar-toggle .icon-bar {
+    width: 50px;
+    height: 5px;
+    background-color: #ffffff;
+  }
+  #ca-navigation .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 7px;
+  }
+  #ca-navigation .navbar-brand {
+    background-image: url("/assets/images/company-logo/logo_dnb.png");
+    margin-left: 20px;
+  }
+  #ca-navigation #navbar ul.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #092a2f;
+  }
+  #ca-navigation #navbar ul.navbar-nav li {
+    height: 140px;
+    border-bottom: 2px solid #0e4149;
+    box-shadow: 0 2px 0 #041416;
+  }
+  #ca-navigation #navbar ul.navbar-nav li a {
+    font-family: "ProximaNova-Light";
+    font-size: 50px;
+    color: #ffffff;
+    height: 140px;
+    line-height: 110px;
+  }
+  #ca-navigation #navbar ul.navbar-nav li a.router-link-active {
+    color: #027383;
+  }
+  .ca-navigation__name-page {
+    font-family: "ProximaNova-Light";
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 40px;
+    line-height: 120px;
+  }
+}

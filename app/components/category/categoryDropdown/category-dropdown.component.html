@@ -1,0 +1,7 @@
+<div id="category-dropdown" class="dropdown">
+  <button class="caret dropdown-toggle" [class.caret-open]="isDropdownOpen" (click)="clickDropdown()" type="button" data-toggle="dropdown"></button>
+  <ul class="dropdown-menu">
+    <li *ngFor="#route of routes"><a [routerLink]="[route.name]">{{route.name}}</a></li>
+  </ul>
+</div>
+
