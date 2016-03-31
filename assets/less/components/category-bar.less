@@ -1,0 +1,37 @@
+@import "../variables.less";
+@import "../fonts.less";
+
+#category-bar{    
+    position: relative;
+    
+    ul.navbar-nav{
+        margin: @base-height*8 0 0 0;
+        white-space: nowrap;
+        width: 100%;
+        overflow-y: hidden; 
+        overflow-x: scroll; 
+        font-size: 0; 
+        
+        li{
+            display: inline-block;
+            word-spacing: 0;                   
+             
+            a{
+               font-family:"ProximaNova-Light";
+               font-size: @base-size * 14;
+               color: @categories-font-color;
+               opacity: 0.2;
+               letter-spacing: -@base-size;                
+               padding:0;
+               line-height: 65px;
+               height:70px;
+               margin-right: @base-width * 8;
+                
+                &.router-link-active{
+                    opacity: 1
+                }
+            } 
+        }
+    }  
+   
+}

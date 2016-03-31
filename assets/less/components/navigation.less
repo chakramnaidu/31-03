@@ -1,0 +1,81 @@
+@import "../variables.less";
+@import "../fonts.less";
+
+#ca-navigation{    
+    background-color: @main-color;
+    height: @base-height * 24; 
+    
+    .navbar-brand{
+        background-image: url(@brand);
+        width: @base-width * 35;
+        height: @base-height * 24;
+        margin-left: @base-width * 2;
+    } 
+}
+
+@media (min-width: 240px) and (max-width: 768px){
+    #ca-navigation{    
+        background-color: @main-color;
+        height: @base-height * 24;
+        
+        .navbar-toggle{
+            margin-top: @base-height * 7;
+            margin-right: @base-width * 2;
+        }
+        
+        .navbar-toggle .icon-bar{
+            width: @base-width * 10;
+            height: @base-height;
+            background-color: @menu-title-font-color;
+        }
+        
+        .navbar-toggle .icon-bar + .icon-bar{
+            margin-top: 7px;
+        }  
+        
+        .navbar-brand{
+            background-image: url(@brand);
+            margin-left: @base-width * 4;
+        }        
+       
+        
+        #navbar{  
+                       
+            ul.navbar-nav{
+                margin-top:0;
+                margin-bottom: 0;
+                
+                background-color: @submenu-background-color;
+                
+                li{
+                    height: @base-height * 28;
+                    border-bottom: 2px solid @submenu-item-border-color;
+                    box-shadow: 0 2px 0 @submenu-item-shadow-color;
+                    
+                    a{
+                        font-family: "ProximaNova-Light";
+                        font-size: @base-size * 10;
+                        color: @menu-title-font-color;
+                        height: @base-height * 28;
+                        line-height: @base-height * 22;
+                        
+                        &.router-link-active{
+                            color: @main-color;
+                        }
+                    }
+                }
+            }
+            
+        }        
+    }
+    
+    .ca-navigation{
+         &__name-page{
+            font-family: "ProximaNova-Light";
+            font-size: @base-size * 12;
+            color: @menu-title-font-color;
+            margin-left: @base-width * 8;
+            line-height: @base-height * 24;
+        }
+    }
+}

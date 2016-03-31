@@ -1,0 +1,31 @@
+{
+    "MY_PAGE": "My Page",
+    "MY_CV": "My CV",
+    "Personal_Infor": {
+        "Header_Title": "Personal Info",
+        "Upload_Your_Photo": "Upload Your Photo",
+        "Full_Name": "Full Name",
+        "Email": "Email",
+        "Mobile_Phone": "Mobile Phone",
+        "Address": "Address"
+    },
+    "CV": {
+        "Your_CV": "Your CV",
+        "CV_Placeholder": "No file chosen"
+    },
+    "Crop_Image": {
+        "Upload_Image": "Upload Image",
+        "Zoom_In": "Zoom In",
+        "Zoom_Out": "Zoom Out",
+        "Move_Left": "Move Left",
+        "Move_Right": "Move Right",
+        "Move_Up": "Move Up",
+        "Move_Down": "Move Down",
+        "Rotate_Left": "Rotate Left",
+        "Rotate_Right": "Rotate Right",
+        "Reset": "Reset",
+        "Import_New_File": "Import New File",
+        "Crop": "Crop",
+        "Cancel": "Cancel"
+    }
+}

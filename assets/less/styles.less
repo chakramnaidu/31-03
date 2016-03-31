@@ -1,0 +1,55 @@
+﻿@import "variables.less";
+@import "fonts.less";
+
+.main-spinner {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    font-size: @base-size * 16;
+}
+
+#app-content{
+    margin-top: @base-height * 24px;
+}
+
+.require-field-signal {
+    font-family: ProximaNova-Regular;
+    font-size: @base-size * 8;
+    color: @require-field-signal-color;
+    font-style: normal;
+}
+
+
+.upload-file-icon {
+    background-image: url(@candidate-app-sprite-icon-image-url);
+    width: @base-width * 14;
+    background-repeat: no-repeat;
+    height: @base-height *14;
+    font-size: 0;
+    margin-top: -2px;
+    margin-left: -2px;
+    background-position: -115px 0;
+    background-color: @upload-file-color;
+}
+ .ca-control{
+        margin-top: 15px;
+
+        &__label {
+            font-family: ProximaNova-Regular;
+            font-size: @base-size * 8;
+            color: @categories-font-color;
+            height: 62px;
+        }
+
+        &__input, &__input[type="text"], &__input[type="email"], &__input[type="number"], &__input[type="password"]{
+            font-family: ProximaNova-Regular;
+            font-size: @input-text-size;
+            color: @menu-font-color;
+            height: @base-height * 14;
+            padding: @base-height * 4 0 @base-height * 4 @base-height * 3;
+            border: 1px solid @input-border-color;
+            border-radius: @base-radius * 5;
+            width: 100%;
+        }
+    }
+

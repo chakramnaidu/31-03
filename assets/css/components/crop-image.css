@@ -1,0 +1,167 @@
+#upload-image-modal .btn-primary {
+  border-color: #027383;
+  background-color: #027383;
+}
+#upload-image-modal .btn-primary:hover,
+#upload-image-modal .btn-primary:focus,
+#upload-image-modal .btn-primary:active,
+#upload-image-modal .btn-primary.active,
+#upload-image-modal .btn-primary.active:focus,
+#upload-image-modal .btn-primary.active:hover {
+  border-color: #027383;
+  background-color: #027383;
+}
+#upload-image-modal body {
+  overflow-x: hidden;
+}
+#upload-image-modal .docs-header {
+  border-color: #027383;
+  background-color: #027383;
+  color: #fff;
+}
+#upload-image-modal .docs-header .navbar-brand {
+  color: #eee;
+}
+#upload-image-modal .docs-header .navbar-toggle {
+  border-color: #027383;
+  background-color: #027383;
+}
+#upload-image-modal .docs-header .navbar-toggle:hover,
+#upload-image-modal .docs-header .navbar-toggle:focus {
+  border-color: #027383;
+  background-color: #027383;
+}
+#upload-image-modal .docs-header .navbar-collapse {
+  border-color: #027383;
+}
+#upload-image-modal .docs-header .navbar-text {
+  color: #ddd;
+}
+#upload-image-modal .docs-header .navbar-nav > li > a {
+  color: #eee;
+}
+#upload-image-modal .img-container,
+#upload-image-modal .img-preview {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+#upload-image-modal .img-container {
+  min-height: 200px;
+  max-height: 340px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #upload-image-modal .img-container {
+    min-height: 340px;
+  }
+}
+#upload-image-modal .img-container > img {
+  max-width: 100%;
+}
+#upload-image-modal .docs-preview {
+  margin-right: -15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#upload-image-modal .img-preview {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#upload-image-modal .img-preview > img {
+  max-width: 100%;
+}
+#upload-image-modal .preview-lg {
+  width: 240px ;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#upload-image-modal .preview-md {
+  width: 139px;
+  height: 78px;
+}
+#upload-image-modal .preview-sm {
+  width: 69px;
+  height: 39px;
+}
+#upload-image-modal .preview-xs {
+  width: 35px;
+  height: 20px;
+  margin-right: 0;
+}
+#upload-image-modal .docs-data > .input-group {
+  margin-bottom: 10px;
+}
+#upload-image-modal .docs-data > .input-group > label {
+  min-width: 80px;
+}
+#upload-image-modal .docs-data > .input-group > span {
+  min-width: 50px;
+}
+#upload-image-modal .docs-buttons > .btn,
+#upload-image-modal .docs-buttons > .btn-group,
+#upload-image-modal .docs-buttons > .form-control {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+#upload-image-modal .docs-toggles > .btn,
+#upload-image-modal .docs-toggles > .btn-group,
+#upload-image-modal .docs-toggles > .dropdown {
+  margin-bottom: 10px;
+}
+#upload-image-modal .docs-tooltip {
+  display: block;
+  margin: -6px -12px;
+  padding: 6px 12px;
+}
+#upload-image-modal .docs-tooltip > .icon {
+  margin: 0 -3px;
+  vertical-align: top;
+}
+#upload-image-modal .tooltip-inner {
+  white-space: normal;
+}
+#upload-image-modal .btn-upload {
+  margin-top: 0 !important;
+  color: #fff !important;
+  padding-top: 6px !important;
+}
+#upload-image-modal .btn-upload .tooltip-inner {
+  white-space: nowrap;
+}
+@media (max-width: 400px) {
+  #upload-image-modal .btn-group-crop {
+    margin-right: -15px !important;
+  }
+  #upload-image-modal .btn-group-crop > .btn {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #upload-image-modal .btn-group-crop .docs-tooltip {
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+#upload-image-modal .docs-options .dropdown-menu {
+  width: 100%;
+}
+#upload-image-modal .docs-options .dropdown-menu > li {
+  padding: 3px 20px;
+}
+#upload-image-modal .docs-options .dropdown-menu > li:hover {
+  background-color: #f7f7f7;
+}
+#upload-image-modal .docs-options .dropdown-menu > li > label {
+  display: block;
+}
+#upload-image-modal .docs-cropped .modal-body {
+  text-align: center;
+}
+#upload-image-modal .docs-cropped .modal-body > img,
+#upload-image-modal .docs-cropped .modal-body > canvas {
+  max-width: 100%;
+}
