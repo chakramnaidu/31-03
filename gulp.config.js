@@ -38,7 +38,7 @@ module.exports = function () {
     var liveServer = {
         dev: {
             port: 34214,
-            host: "localhost",
+            host: "https://heroku-ui-test-8080.herokuapp.com",
             open: '/',
             file: "index.html",
             wait: 1000,
