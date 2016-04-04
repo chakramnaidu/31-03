@@ -46,7 +46,7 @@ module.exports = function () {
         },
         prod: {
             port: 3001,
-            host: "127.0.0.1",
+            host: "https://heroku-ui-test-8080.herokuapp.com",
             root: 'build/',
             file: "index.html",
             wait: 1000,
@@ -55,7 +55,7 @@ module.exports = function () {
     };
 
     var e2eConfig = {
-        seleniumTarget: 'http://127.0.0.1:3000'
+        seleniumTarget: 'https://heroku-ui-test-8080.herokuapp.com:3000'
     };
 
     var systemJs = {
